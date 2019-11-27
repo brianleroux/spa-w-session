@@ -1,8 +1,13 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+art-n2j
 
 @static
+
+@http
+get /login
+
+@tables
+data
+  scopeID *String
+  dataID **String
+  ttl TTL
