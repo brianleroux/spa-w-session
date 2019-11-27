@@ -4,7 +4,7 @@ art-n2j
 @static
 
 @http
-get /login
+
 
 @tables
 data
